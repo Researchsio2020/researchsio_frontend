@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Footer from "../layout/footer";
-import Header from "../layout/header";
+import Header from "../layout/header-3";
 import React, { useEffect, useState } from "react";
 import { collection, onSnapshot, query, where } from "firebase/firestore";
 import { db } from "../firebase";
@@ -27,7 +27,7 @@ function Team1() {
   }, []);
   return (
     <>
-      <Header color="#ffffff" />
+      <Header />
       <div className="page-content bg-white">
         {/* <!-- Banner  --> */}
         <div
@@ -145,7 +145,11 @@ function Team1() {
                 data-wow-duration="2s"
                 data-wow-delay="0.4s"
               >
-                <Link href="/contact-us-1">
+                <Link
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSeNx4dpne7L-MDQ534tThNRBvO92U5E3u6gP_p6wgh09uz9ug/viewform"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <a className="btn btn-link d-inline-flex align-items-center">
                     <i className="fa fa-angle-right m-r10"></i>Join Now
                   </a>

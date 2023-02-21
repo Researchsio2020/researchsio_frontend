@@ -87,7 +87,7 @@ function BlogSlider() {
               >
                 <div className="dlab-blog style-1 bg-white text-center">
                   <div className="dlab-media">
-                    <Link href="/blog-details-1">
+                    <Link href={`/blog/${item.id}`}>
                       <a>
                         {/* <img src="images/blog/blog-grid-1/pic3.jpg" alt="" /> */}
                         <img src={item.image} alt={item.title} />
@@ -96,13 +96,15 @@ function BlogSlider() {
                   </div>
                   <div className="dlab-info">
                     <h5 className="dlab-title">
-                      <Link href="/blog-details-1">
+                      <Link href={`/blog/${item.id}`}>
                         <a>{item.title}</a>
                       </Link>
                     </h5>
                     {/* <p className="m-b0">{item.description}</p> */}
                     <div
-                      dangerouslySetInnerHTML={{ __html: item.description }}
+                      dangerouslySetInnerHTML={{
+                        __html: item.description.substring(0, 100),
+                      }}
                     ></div>
                     <div className="dlab-meta meta-bottom">
                       <ul>

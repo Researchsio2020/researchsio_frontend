@@ -65,22 +65,18 @@ function MyApp({ Component, pageProps }) {
       </div>
       <ToastContainer position="top-center" />
 
-      <a
-        href="https://themeforest.net/cart/configure_before_adding/32950742/?license=regular;"
-        target="_blank"
-        className="bt-buy-now theme-btn"
-      >
-        <i className="ti-shopping-cart" />
-        <span>Buy Now</span>
+      <a href="tel:01791925491" className="bt-buy-now theme-btn">
+        <i className="ti-headphone-alt" />
+        <span>Support</span>
       </a>
-      <a
+      {/* <a
         href="https://support.w3itexperts.com"
         target="_blank"
         className="bt-support-now theme-btn"
       >
-        <i className="ti-headphone-alt" />
+        <i className="ti-shopping-cart" />
         <span>Support</span>
-      </a>
+      </a> */}
       <a href="#top">
         <button
           className="scroltop icon-up"

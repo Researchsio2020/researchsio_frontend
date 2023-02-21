@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Cta from "../element/cta";
 import Quote from "../element/quote";
 import Footer from "../layout/footer";
 import Header from "../layout/header-3";
@@ -31,7 +32,7 @@ function ContactUs1() {
 		<Quote/>
 		
 		{/* <!-- Call To action --> */}
-		<section style={{"backgroundImage":"url(images/background/bg5.jpg)","backgroundSize":"cover"}}>
+		{/* <section style={{"backgroundImage":"url(images/background/bg5.jpg)","backgroundSize":"cover"}}>
 			<div className="container">
 				<div className="row action-box style-1 align-items-center">
 					<div className="col-xl-7 col-lg-8 col-md-8 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
@@ -47,7 +48,8 @@ function ContactUs1() {
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> */}
+		<Cta />
 	</div>
 	<Footer/>
     </>

@@ -32,7 +32,7 @@ function Cta() {
             >
               <Link
                 href="https://docs.google.com/forms/d/e/1FAIpQLSeNx4dpne7L-MDQ534tThNRBvO92U5E3u6gP_p6wgh09uz9ug/viewform"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
               >
                 <a className="btn btn-link d-inline-flex align-items-center">
                   <i className="fa fa-angle-right m-r10"></i>Join Now

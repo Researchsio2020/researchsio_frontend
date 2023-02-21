@@ -77,7 +77,7 @@ function Header({ color }) {
                     </Link>
                   </li>
                   <li>
-                    <Link href="#aboutNav">
+                    <Link href="/about-us">
                       <a
                         style={{
                           color: color,
@@ -115,7 +115,7 @@ function Header({ color }) {
                     </Link>
                   </li>
                   <li>
-                    <Link href="#galleryNav">
+                    <Link href="/#galleryNav">
                       <a
                         style={{
                           color: color,
@@ -126,15 +126,22 @@ function Header({ color }) {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/">
-                      <a
-                        style={{
-                          color: color,
-                        }}
-                      >
-                        Login
-                      </a>
-                    </Link>
+                    {/* <Link
+                      href="https://admin.researchsio.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    > */}
+                    <a
+                      href="https://admin.researchsio.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{
+                        color: color,
+                      }}
+                    >
+                      Login
+                    </a>
+                    {/* </Link> */}
                   </li>
                   {/* <li className={`${open === "about" ? "open" : ""}`}><a  onClick={() => setOpen("about")}><span>Pages</span><i className="fa fa-chevron-down"></i></a>
                                     <ul className="sub-menu">
