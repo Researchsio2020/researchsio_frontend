@@ -3,6 +3,12 @@ import { useState, useEffect } from "react";
 import Slider from "react-slick";
 import { db } from "../firebase";
 import { collection, onSnapshot, query } from "firebase/firestore";
+import {
+  FacebookIcon,
+  FacebookShareButton,
+  WhatsappIcon,
+  WhatsappShareButton,
+} from "react-share";
 
 function BlogSlider() {
   const [categories, setCategories] = useState([]);
@@ -103,7 +109,7 @@ function BlogSlider() {
                     {/* <p className="m-b0">{item.description}</p> */}
                     <div
                       dangerouslySetInnerHTML={{
-                        __html: item.description.substring(0, 100),
+                        __html: item.description?.substring(0, 100),
                       }}
                     ></div>
                     <div className="dlab-meta meta-bottom">
@@ -112,35 +118,49 @@ function BlogSlider() {
                           <i className="flaticon-clock m-r10"></i>
                           {item.date}
                         </li>
-                        {/* <li className="post-comment">
+                        <li className="post-comment">
                           <a href="#">
                             <i className="flaticon-speech-bubble"></i>
-                            <span>15</span>
+                            <span>{item.comments.length}</span>
                           </a>
                         </li>
                         <li className="post-share">
                           <i className="flaticon-share"></i>
                           <ul>
                             <li>
-                              <a
+                              {/* <a
                                 className="fa fa-facebook"
                                 href="https://en-gb.facebook.com/"
-                              ></a>
+                              ></a> */}
+                              <FacebookShareButton
+                                url={`https://researchsio.com/blog/${item.id}`}
+                                quote={item.title}
+                                hashtag="#researchsio"
+                              >
+                                <FacebookIcon logoFillColor="white"></FacebookIcon>
+                              </FacebookShareButton>
                             </li>
                             <li>
-                              <a
+                              {/* <a
                                 className="fa fa-twitter"
                                 href="https://twitter.com/login?lang=en"
-                              ></a>
+                              ></a> */}
+                              <WhatsappShareButton
+                                url={`https://researchsio.com/blog/${item.id}`}
+                                title={item.title}
+                                hashtag="#researchsio"
+                              >
+                                <WhatsappIcon logoFillColor="white"></WhatsappIcon>
+                              </WhatsappShareButton>
                             </li>
-                            <li>
+                            {/* <li>
                               <a
                                 className="fa fa-linkedin"
                                 href="https://www.linkedin.com/login"
                               ></a>
-                            </li>
+                            </li> */}
                           </ul>
-                        </li> */}
+                        </li>
                       </ul>
                     </div>
                   </div>

@@ -10,9 +10,13 @@ import {
   WhatsappIcon,
   WhatsappShareButton,
 } from "react-share";
+import paginate from "../utils/paginate";
 
 function BlogLargeRightSidebar() {
   const [categories, setCategories] = useState([]);
+  const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [page, setPage] = useState(0);
 
   useEffect(() => {
     const unsubscribe = onSnapshot(
@@ -22,7 +26,8 @@ function BlogLargeRightSidebar() {
         snapShot.docs.forEach((doc) => {
           list.push({ id: doc.id, ...doc.data() });
         });
-        setCategories(list);
+        setData(paginate(list));
+        setLoading(false);
       },
       (error) => {
         console.log(error);
@@ -32,6 +37,34 @@ function BlogLargeRightSidebar() {
       unsubscribe();
     };
   }, []);
+
+  useEffect(() => {
+    if (loading) return;
+    setCategories(data[page]);
+  }, [loading, page]);
+
+  const nextPage = () => {
+    setPage((oldPage) => {
+      let nextPage = oldPage + 1;
+      if (nextPage > data.length - 1) {
+        nextPage = 0;
+      }
+      return nextPage;
+    });
+  };
+  const prevPage = () => {
+    setPage((oldPage) => {
+      let prevPage = oldPage - 1;
+      if (prevPage < 0) {
+        prevPage = data.length - 1;
+      }
+      return prevPage;
+    });
+  };
+
+  const handlePage = (index) => {
+    setPage(index);
+  };
 
   return (
     <>
@@ -93,7 +126,7 @@ function BlogLargeRightSidebar() {
                         </p> */}
                         <div
                           dangerouslySetInnerHTML={{
-                            __html: item.description.substring(0, 100),
+                            __html: item.description?.substring(0, 100),
                           }}
                         ></div>
                         <div className="dlab-meta meta-bottom">
@@ -103,7 +136,7 @@ function BlogLargeRightSidebar() {
                               {item.date}
                             </li>
                             <li className="post-author">
-                              <i className="flaticon-user m-r10"></i>By{" "}
+                              <i className="flaticon-user m-r10"></i>
                               {item.author}
                             </li>
                             <li className="post-comment">
@@ -123,7 +156,7 @@ function BlogLargeRightSidebar() {
                                     href="https://en-gb.facebook.com/"
                                   ></a> */}
                                   <FacebookShareButton
-                                    url={`https://researchsio.com/${item.id}`}
+                                    url={`https://www.researchsio.com/blog/${item.id}`}
                                     quote={item.title}
                                     hashtag="#researchsio"
                                   >
@@ -132,7 +165,7 @@ function BlogLargeRightSidebar() {
                                 </li>
                                 <li>
                                   <WhatsappShareButton
-                                    url={`https://researchsio.com/${item.id}`}
+                                    url={`https://researchsio.com//blog/${item.id}`}
                                     title={item.title}
                                     hashtag="#researchsio"
                                   >
@@ -158,37 +191,39 @@ function BlogLargeRightSidebar() {
                   </div>
                 );
               })}
-              <div className="col-12 m-b50">
-                <nav aria-label="Blog Pagination">
-                  <ul className="pagination text-center p-t20">
-                    <li className="page-item">
-                      <Link href="#">
-                        <a className="page-link prev">Prev</a>
-                      </Link>
-                    </li>
-                    <li className="page-item">
-                      <Link href="#">
-                        <a className="page-link active">1</a>
-                      </Link>
-                    </li>
-                    <li className="page-item">
-                      <Link href="#">
-                        <a className="page-link">2</a>
-                      </Link>
-                    </li>
-                    <li className="page-item">
-                      <Link href="#">
-                        <a className="page-link">3</a>
-                      </Link>
-                    </li>
-                    <li className="page-item">
-                      <Link href="#">
-                        <a className="page-link next">Next</a>
-                      </Link>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
+              {categories.length > 0 && (
+                <div className="col-12 m-b50">
+                  <nav aria-label="Blog Pagination">
+                    <ul className="pagination text-center p-t20">
+                      <li className="page-item">
+                        <a className="page-link prev" onClick={prevPage}>
+                          Prev
+                        </a>
+                      </li>
+                      {categories.map((item, index) => {
+                        return (
+                          <li className="page-item" key={index}>
+                            <a
+                              className={`page-link  ${
+                                index === page ? "active" : null
+                              }`}
+                              onClick={() => handlePage(index)}
+                            >
+                              1
+                            </a>
+                          </li>
+                        );
+                      })}
+
+                      <li className="page-item">
+                        <a className="page-link next" onClick={nextPage}>
+                          Next
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              )}
             </div>
           </div>
         </section>

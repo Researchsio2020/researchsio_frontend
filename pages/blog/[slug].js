@@ -171,7 +171,7 @@ function BlogDetails1() {
                               href="https://en-gb.facebook.com/"
                             > */}
                             <FacebookShareButton
-                              url={`https://researchsio.com/${blogDetails.slug}`}
+                              url={`https://researchsio.com/blog/${blogDetails.slug}`}
                               quote={blogDetails.title}
                               hashtag="#researchsio"
                             >
@@ -185,7 +185,7 @@ function BlogDetails1() {
                               href="https://twitter.com/login?lang=en"
                             ></a> */}
                             <WhatsappShareButton
-                              url={`https://researchsio.com/${blogDetails.slug}`}
+                              url={`https://researchsio.com/blog/${blogDetails.slug}`}
                               title={blogDetails.title}
                               hashtag="#researchsio"
                             >

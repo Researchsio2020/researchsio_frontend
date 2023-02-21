@@ -171,7 +171,10 @@ function Header({ color }) {
                 </ul>
                 <div className="dlab-social-icon">
                   <ul>
-                    <Link href="https://en-gb.facebook.com/">
+                    <Link
+                      href="https://www.facebook.com/Researchsio"
+                      target="_bland"
+                    >
                       <a className="fa fa-facebook"></a>
                     </Link>
                     <Link href="https://twitter.com/login?lang=en">
