@@ -101,7 +101,7 @@ function Header3({ color }) {
                     </Link>
                   </li>
                   <li>
-                    <Link href="#blogNav">
+                    <Link href="/blogs">
                       <a
                         style={{
                           color: color,
