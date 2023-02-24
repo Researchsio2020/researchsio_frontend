@@ -31,7 +31,7 @@ function AboutUs() {
               <p>
                 Researchsio provides a platform to guide and support YOU on your journey with
     your research project. The required consultancy, team and tools thats will help you to build 
-    your dream project and give it a reality.  
+    your dream project and give it a reality.
               </p>
               <p className="m-b30">
                 We have qualified Researchers and Consultant who will guide you on how to start!
