@@ -25,22 +25,19 @@ function AboutUs() {
                   About Us
                 </h6>
                 <h2 className="title">
-                  How We Can Help You Achieve Your Business Goal
+                  How We Can Help You Achieve Your Research Goal
                 </h2>
               </div>
               <p>
-                Integer pretium molestie nisl, non blandit lectus suscipit in.
-                Vivamus tellus diam, iaculis eget nulla sit amet, tincidunt
-                consectetur sem. Suspendisse laoreet, quam sed faucibus feugiat,
-                tortor velit suscipit orci, sed consectetur ante eros id urna.
-                Mauris luctus nulla ut pharetra tempor.
+                Researchsio provides a platform to guide and support YOU on your journey with
+    your research project. The required consultancy, team and tools thats will help you to build 
+    your dream project and give it a reality.  
               </p>
               <p className="m-b30">
-                Mauris egestas eleifend sapien eu malesuada. Phasellus at metus
-                eget sapien tristique accumsan non sit amet augue.
+                We have qualified Researchers and Consultant who will guide you on how to start!
               </p>
               <img src="images/sign.png" alt="" />
-              <h4 className="m-b30">CEO Jhone Doe</h4>
+              <h4 className="m-b30">Founder M. Salman Faisal</h4>
               <Link href="/about-us-1">
                 <a className="btn btn-link d-inline-flex align-items-center">
                   <i className="fa fa-angle-right m-r10"></i>Learn More
