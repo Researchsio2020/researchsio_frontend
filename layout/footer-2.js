@@ -70,10 +70,10 @@ function Footer2() {
 							<h5 className="footer-title">Our Services</h5>
 							<ul>
 								<li><a href="javascript:void(0);">Strategy & Research</a></li>
-								<li><a href="javascript:void(0);">Web Development</a></li>
-								<li><a href="javascript:void(0);">Web Solution</a></li>
-								<li><a href="javascript:void(0);">Digital Marketing</a></li>
-								<li><a href="javascript:void(0);">App Design </a></li>
+								<li><a href="javascript:void(0);">Consulation</a></li>
+								<li><a href="javascript:void(0);">Research Project</a></li>
+								<li><a href="javascript:void(0);">Team Management</a></li>
+								<li><a href="javascript:void(0);">Research Design</a></li>
 							</ul>
 						</div>
                     </div>
@@ -104,7 +104,7 @@ function Footer2() {
 							<ul>
 								<li><a className="fa fa-facebook" href="https://en-gb.facebook.com/"></a></li>
 								<li><a className="fa fa-instagram" href="https://www.instagram.com/"></a></li>
-								<li><a className="fa fa-twitter" href="https://twitter.com/login?lang=en"></a></li>
+								<li><a className="fa fa-researchsgate" href="https://www.researchgate.net/login?lang=en"></a></li>
 							</ul>
 						</div>
 					</div>
