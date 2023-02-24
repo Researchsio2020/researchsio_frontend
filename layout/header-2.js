@@ -37,8 +37,8 @@ function Header2() {
                                     </li>
                                     <li>
                                         <a
-                                            className="fa fa-twitter"
-                                            href="https://twitter.com/login?lang=en"
+                                            className="fa fa-researchgate"
+                                            href="https://https://www.researchgate.net//login?lang=en"
                                         ></a>
                                     </li>
                                 </ul>
