@@ -8,7 +8,7 @@ function Newsletter3() {
 				<div className="container">
 					<div className="row align-items-center subscribe-wraper-1">
 						<div className="col-lg-7 col-md-6">
-							<h2 className="text-white title m-b30">Subscribe To Our Newsletter For Latest Update Of New Products</h2>
+							<h2 className="text-white title m-b30">Subscribe To Our Newsletter For Latest Update Of New Projects and Products</h2>
 						</div>
 						<div className="col-lg-5 col-md-6">
 							<div className="dlab-subscribe style-3 max-w500">
