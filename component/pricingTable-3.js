@@ -20,16 +20,13 @@ function PricingT3() {
 										</div>
 									</div>
 									<div className="pricingtable-price"> 
-										<h2 className="pricingtable-bx">$49<small className="pricingtable-type">/Month</small></h2>
+										<h2 className="pricingtable-bx">BDT 200<small className="pricingtable-type">/2 Month</small></h2>
 									</div>
 									<ul className="pricingtable-features">
-										<li>Graphic Design </li>
-										<li>Web Design</li>
-										<li>UI/UX</li>
-										<li>HTML/CSS</li>
-										<li>SEO Marketing</li>
-										<li>Business Analysis</li>
-									</ul>
+										<li>Topic Choice</li>
+									        <li>Study Plan Design</li>
+									        <li>PDF Books</li>
+									  </ul>
 									<div className="pricingtable-footer"> 
 										<a href="#" className="btn btn-corner btn-outline-primary">Start Now</a>
 									</div>
@@ -48,15 +45,14 @@ function PricingT3() {
 										</div>
 									</div>
 									<div className="pricingtable-price"> 
-										<h2 className="pricingtable-bx">$99<small className="pricingtable-type">/Month</small></h2>
+										<h2 className="pricingtable-bx">BDT 500<small className="pricingtable-type">/2 Month</small></h2>
 									</div>
 									<ul className="pricingtable-features">
-										<li>Graphic Design </li>
-										<li>Web Design</li>
-										<li>UI/UX</li>
-										<li>HTML/CSS</li>
-										<li>SEO Marketing</li>
-										<li>Business Analysis</li>
+										<li>Research Design </li>
+									        <li>Study Plan Design</li>
+									        <li>Software Support</li>
+									        <li>PDF Books</li>
+									        <li>Publications</li>
 									</ul>
 									<div className="pricingtable-footer"> 
 										<a href="#" className="btn btn-corner btn-outline-primary">Start Now</a> 
@@ -76,15 +72,16 @@ function PricingT3() {
 										</div>
 									</div>
 									<div className="pricingtable-price"> 
-										<h2 className="pricingtable-bx">$149<small className="pricingtable-type">/Month</small></h2>
+										<h2 className="pricingtable-bx">BDT 1000<small className="pricingtable-type">/2 Month</small></h2>
 									</div>
 									<ul className="pricingtable-features">
-										<li>Graphic Design </li>
-										<li>Web Design</li>
-										<li>UI/UX</li>
-										<li>HTML/CSS</li>
-										<li>SEO Marketing</li>
-										<li>Business Analysis</li>
+										<li>Research Design </li>
+									        <li>Study Plan Design</li>
+									        <li>Software Support</li>
+									        <li>PDF Books</li>
+								        	<li>Research Consultation</li>
+									        <li>Team Support</li>
+									        <li>Publications</li>
 									</ul>
 									<div className="pricingtable-footer"> 
 										<a href="#" className="btn btn-corner btn-outline-primary">Start Now</a> 
