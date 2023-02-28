@@ -69,16 +69,14 @@ function AboutUs1() {
                       About Us
                     </h6>
                     <h2 className="title">
-                      How We Can Help You Achieve Your Business Goal
+                      How We Can Help You Achieve Your Research Goal
                     </h2>
                   </div>
                   <p>
-                    Integer pretium molestie nisl, non blandit lectus suscipit
-                    in. Vivamus tellus diam, iaculis eget nulla sit amet,
-                    tincidunt consectetur sem. Suspendisse laoreet, quam sed
-                    faucibus feugiat, tortor velit suscipit orci, sed
-                    consectetur ante eros id urna. Mauris luctus nulla ut
-                    pharetra tempor.
+                    You are passionate about research work, been dreaming to work as a professional researcher
+                    yet don't know how and where to start. Your Journey is taking too long to initiate. Dont Worry ! We are here to 
+support with all we have! Your Goal, Your Vision, Your Mission and we will be the best supporter of You! From a wide range of research topic choice to connect with the 
+best Researchers for consultation- We arrange anything that you need.  
                   </p>
                   <p className="m-b30">
                     Mauris egestas eleifend sapien eu malesuada. Phasellus at
