@@ -24,7 +24,7 @@ function Service() {
             <h6 className="sub-title bgl-primary m-b20 text-primary">
               Services
             </h6>
-            <h2 className="title">Provide Awesome Service To You</h2>
+            <h2 className="title">Services We have for You</h2>
           </div>
           <div className="row">
             <div
@@ -50,9 +50,7 @@ function Service() {
                 <div className="icon-content">
                   <h4 className="dlab-title">Research consultation</h4>
                   <p>
-                    Fusce sit amet dui vitae urna tristique imperdiet. Donec
-                    eget sapien euismod, faucibus nibh non, consequat elit.
-                    Praesent sed vehicula.
+                    Talk to our High Profile Researchers and Consultant on how you can initiate your project and give it a reality 
                   </p>
                 </div>
               </div>
@@ -78,11 +76,9 @@ function Service() {
                   </Link>
                 </div>
                 <div className="icon-content">
-                  <h4 className="dlab-title">Research Equipment delivery</h4>
+                  <h4 className="dlab-title">Research Equipment Delivery</h4>
                   <p>
-                    Fusce sit amet dui vitae urna tristique imperdiet. Donec
-                    eget sapien euismod, faucibus nibh non, consequat elit.
-                    Praesent sed vehicula.
+                    Research Lab wor need a variety of eqipments. We are here to support you with that. We Provide wide range of Research Materials. These are afforable and authentic. Our E-Commerce Site is soon to be launched.
                   </p>
                 </div>
               </div>
@@ -110,9 +106,8 @@ function Service() {
                 <div className="icon-content">
                   <h4 className="dlab-title">Research Project Convey</h4>
                   <p>
-                    Fusce sit amet dui vitae urna tristique imperdiet. Donec
-                    eget sapien euismod, faucibus nibh non, consequat elit.
-                    Praesent sed vehicula.
+                    You have a research project in your mind? But dont know how to initiate ?
+                    Dont Worry. We are here to give your project reality. From Team support to Finacial Support and Journal Publication, We got you covered !
                   </p>
                 </div>
               </div>
