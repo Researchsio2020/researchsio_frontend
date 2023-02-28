@@ -22,7 +22,7 @@ function AboutUs1() {
           >
             <div className="container">
               <div className="dlab-bnr-inr-entry">
-                <h1>About us 1</h1>
+                <h1>About Us</h1>
                 {/* <!-- Breadcrumb Row --> */}
                 <nav aria-label="breadcrumb" className="breadcrumb-row">
                   <ul className="breadcrumb">
@@ -32,7 +32,7 @@ function AboutUs1() {
                       </Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
-                      About us
+                      About Us
                     </li>
                   </ul>
                 </nav>
