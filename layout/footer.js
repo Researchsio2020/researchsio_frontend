@@ -38,7 +38,7 @@ function Footer() {
                       <p>
                         +88 01791 925 491
                         <br />
-                        info@researchsio.com
+                        info@researchsio
                       </p>
                     </div>
                   </div>
