@@ -20,7 +20,7 @@ function PricingTable2() {
 									</div>
 								</div>
 								<div className="pricingtable-price">
-									<h2 className="pricingtable-bx"> BDT 200<small className="pricingtable-type">/2 Month</small></h2>
+									<h2 className="pricingtable-bx">BDT 500<small className="pricingtable-type">/2 Month</small></h2>
 								</div>
 								<ul className="pricingtable-features">
 									<li>Topic Choice</li>
@@ -46,7 +46,7 @@ function PricingTable2() {
 									</div>
 								</div>
 								<div className="pricingtable-price">
-									<h2 className="pricingtable-bx">BDT 500<small className="pricingtable-type">/2 Month</small></h2>
+									<h2 className="pricingtable-bx">BDT 700<small className="pricingtable-type">/2 Month</small></h2>
 								</div>
 								<ul className="pricingtable-features">
 									<li>Research Design </li>
