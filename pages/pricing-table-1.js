@@ -38,15 +38,12 @@ function PricingTable1() {
 										<h3>Basic Plan</h3>
 									</div>
 									<div className="pricingtable-price"> 
-										<h2 className="pricingtable-bx">$49</h2>
+										<h2 className="pricingtable-bx">BDT 500</h2>
 									</div>
 									<ul className="pricingtable-features">
-										<li>Graphic Design </li>
-										<li>Web Design</li>
-										<li>UI/UX</li>
-										<li>HTML/CSS</li>
-										<li>SEO Marketing</li>
-										<li>Business Analysis</li>
+										<li>Topic Choice</li>
+									        <li>Study Plan Design</li>
+									        <li>PDF Books</li>
 									</ul>
 									<div className="pricingtable-footer"> 
 										<Link href="/pricing-table-1"><a className="btn btn-link d-inline-flex align-items-center"><i className="fa fa-angle-right m-r10"></i>Start Now</a></Link> 
@@ -62,15 +59,14 @@ function PricingTable1() {
 										<h3>Standart Plan</h3>
 									</div>
 									<div className="pricingtable-price"> 
-										<h2 className="pricingtable-bx">$99</h2>
+										<h2 className="pricingtable-bx">BDT 700</h2>
 									</div>
 									<ul className="pricingtable-features">
-										<li>Graphic Design </li>
-										<li>Web Design</li>
-										<li>UI/UX</li>
-										<li>HTML/CSS</li>
-										<li>SEO Marketing</li>
-										<li>Business Analysis</li>
+										<li>Research Design </li>
+									        <li>Study Plan Design</li>
+									        <li>Software Support</li>
+									        <li>PDF Books</li>
+									        <li>Publications</li>
 									</ul>
 									<div className="pricingtable-footer"> 
 										<Link href="pricing-table-1"><a className="btn btn-link d-inline-flex align-items-center"><i className="fa fa-angle-right m-r10"></i>Start Now</a></Link> 
@@ -85,15 +81,16 @@ function PricingTable1() {
 										<h3>Premium Plan</h3>
 									</div>
 									<div className="pricingtable-price"> 
-										<h2 className="pricingtable-bx">$149</h2>
+										<h2 className="pricingtable-bx">BDT 1000</h2>
 									</div>
 									<ul className="pricingtable-features">
-										<li>Graphic Design </li>
-										<li>Web Design</li>
-										<li>UI/UX</li>
-										<li>HTML/CSS</li>
-										<li>SEO Marketing</li>
-										<li>Business Analysis</li>
+										<li>Research Design </li>
+									        <li>Study Plan Design</li>
+									        <li>Software Support</li>
+									        <li>PDF Books</li>
+								        	<li>Research Consultation</li>
+									        <li>Team Support</li>
+									        <li>Publications</li>
 									</ul>
 									<div className="pricingtable-footer"> 
 										<Link href="pricing-table-1"><a className="btn btn-link d-inline-flex align-items-center"><i className="fa fa-angle-right m-r10"></i>Start Now</a></Link> 
@@ -113,7 +110,7 @@ function PricingTable1() {
 					<div className="col-xl-7 col-lg-8 col-md-8">
 						<div className="section-head style-1">
 							<h6 className="sub-title bgl-primary m-b20 text-primary">More With Us</h6>
-							<h2 className="title">You Want To Showcase Your Website In Top Join With Us</h2>
+							<h2 className="title">You Want To Showcase Your Research in Top Journal? Join With Us</h2>
 						</div>
 					</div>
 					<div className="col-xl-5 col-lg-4 col-md-4 text-right m-b30">
