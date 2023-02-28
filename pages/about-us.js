@@ -74,29 +74,29 @@ function AboutUs1() {
                   </div>
                   <p>
                     You are passionate about research work, been dreaming to work as a professional researcher
-                    yet don't know how and where to start. Your Journey is taking too long to initiate. Dont Worry ! We are here to 
-support with all we have! Your Goal, Your Vision, Your Mission and we will be the best supporter of You! From a wide range of research topic choice to connect with the 
-best Researchers for consultation- We arrange anything that you need.  
+                    yet don't know how and where to start. Your Journey is taking too long to initiate. Dont Worry !
+                    We are here to support with all we have! Your Goal, Your Vision, Your Mission and we will be the 
+                    best supporter of You! From a wide range of research topic choice to connect with the
+                    best Researchers for consultation- We arrange anything that you need.  
                   </p>
                   <p className="m-b30">
-                    Mauris egestas eleifend sapien eu malesuada. Phasellus at
-                    metus eget sapien tristique accumsan non sit amet augue.
+                    We Provide the platform that is required to build your project from scratch. All you have to do is ask ! Lets see what we do
                   </p>
                   <div className="row">
                     <div className="col-lg-6">
                       <ul className="list-arrow primary">
-                        <li>Nulla dict posuere veliitae.</li>
-                        <li>Etiam orci magna, accumsan.</li>
-                        <li>Donec fringilla velit risusquis.</li>
-                        <li>Aliquam pulvinar tempor.</li>
+                        <li>Student friendly Platform for research projects.</li>
+                        <li>Schedule based Consultation at minimum cost.</li>
+                        <li>Team work experience</li>
+                        <li>Opportunity to expand your network and knowledge .</li>
                       </ul>
                     </div>
                     <div className="col-lg-6">
                       <ul className="list-arrow primary">
-                        <li>Nulla dict posuere veliitae.</li>
-                        <li>Etiam orci magna, accumsan.</li>
-                        <li>Donec fringilla velit risusquis.</li>
-                        <li>Aliquam diam tempor.</li>
+                        <li>Experince of the new era of Research.</li>
+                        <li>Support you to move abroad.</li>
+                        <li>Project cost minimization.</li>
+                        <li>First Hand Project Support.</li>
                       </ul>
                     </div>
                   </div>
@@ -125,8 +125,7 @@ best Researchers for consultation- We arrange anything that you need.
                       Watch How Our Team Help You To Achive Goal
                     </h2>
                     <p>
-                      Suspendisse euismod eget lacus quis mattis. Nunc ut auctor
-                      justo, et pulvinar lorem nteger tempor nisi venenatis
+                      As a online based reseach Platform, we value the time. We value of your idea, goal and finacial aspects. 
                     </p>
                   </div>
                   <div className="row">
@@ -142,8 +141,7 @@ best Researchers for consultation- We arrange anything that you need.
                         <div className="icon-content">
                           <h4 className="dlab-title m-b5">Online Support</h4>
                           <p>
-                            Quisque efficitur consequat turpis, eget consequat
-                            risus vulputate eunc ligula.
+                           All our consultation sessions and meetings are arranged on online platform. So you can maintain the best schedule.
                           </p>
                         </div>
                       </div>
@@ -159,11 +157,10 @@ best Researchers for consultation- We arrange anything that you need.
                         </div>
                         <div className="icon-content">
                           <h4 className="dlab-title m-b5">
-                            Worldwide Marketing
+                            Project Team
                           </h4>
                           <p>
-                            Quisque efficitur consequat turpis, eget consequat
-                            risus vulputate eunc ligula.
+                            We can connect you with the best team that is needed for your work to move forward and to be successfull.
                           </p>
                         </div>
                       </div>
@@ -219,9 +216,6 @@ best Researchers for consultation- We arrange anything that you need.
           {/* <!-- Testimonials --> */}
           <Testimonial />
 
-          {/* <!-- Blog --> */}
-          <Blog />
-
           {/* <!-- Get A Quote --> */}
           <Quote />
 
@@ -244,7 +238,7 @@ best Researchers for consultation- We arrange anything that you need.
                       More With Us
                     </h6>
                     <h2 className="title">
-                      You Want To Showcase Your Website In Top Join With Us
+                      You Want To Showcase Your Research Work In Top Journal ? Join With Us
                     </h2>
                   </div>
                 </div>
