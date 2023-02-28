@@ -13,8 +13,8 @@ function Slider1 () {
 					<div className="row align-items-center">
 						<div className="col-md-6">
 							<div className="banner-content">
-								<h6 data-wow-duration="1s" data-wow-delay="0.5s" className="wow fadeInUp sub-title text-primary">We Create Ideas</h6>
-								<h1 data-wow-duration="1.2s" data-wow-delay="1s" className="wow fadeInUp ">Build Stunning <span className="text-primary">Website</span> With Slack Agency</h1>
+								<h6 data-wow-duration="1s" data-wow-delay="0.5s" className="wow fadeInUp sub-title text-primary">We Support Ideas</h6>
+								<h1 data-wow-duration="1.2s" data-wow-delay="1s" className="wow fadeInUp ">Provide Research Platform<span className="text-primary">For Youth</span> With Potentials</h1>
 								<p  data-wow-duration="1.4s" data-wow-delay="1.5s" className="wow fadeInUp m-b30">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus.</p>
 								<Link href="/about-us-1" ><a  data-wow-duration="1.6s" data-wow-delay="2s" className="wow fadeInUp btn btn-link d-inline-flex align-items-center" ><i className="fa fa-angle-right m-r10"></i>Learn More</a></Link>
 							</div>
