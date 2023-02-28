@@ -14,7 +14,7 @@ function Testimonial() {
 						<div className="section-head style-1 text-white p-t15">
 							<h6 className="sub-title bgl-light m-b20">Testmonial</h6>
 							<h2 className="title m-b10">See What Are They Say About Us </h2>
-							<p>Fusce vitae sapien eu mauris semper faucibus eget tristique lorem.</p>
+							<p>A Proud Network of Researchers With Passion To Build Better Future. </p>
 						</div>
 					</div>
 				</div>
