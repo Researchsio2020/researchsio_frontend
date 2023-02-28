@@ -203,7 +203,7 @@ function AboutUs1() {
                 <h6 className="sub-title bgl-primary m-b20 text-primary">
                   Team
                 </h6>
-                <h2 className="title">Our Best Expertise</h2>
+                <h2 className="title">Our Family</h2>
               </div>
               <div className="row">
                 <div className="col-lg-12">
@@ -238,7 +238,7 @@ function AboutUs1() {
                       More With Us
                     </h6>
                     <h2 className="title">
-                      You Want To Showcase Your Research Work In Top Journal ? Join With Us
+                      You Want To Showcase Your Research Work In Top Journal? Join With Us
                     </h2>
                   </div>
                 </div>
