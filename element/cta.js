@@ -21,7 +21,7 @@ function Cta() {
                   More With Us
                 </h6>
                 <h2 className="title">
-                  You Want To Showcase Your Website In Top Join With Us
+                  You Want To Showcase Your Research Work In Top Journal? Join With Us
                 </h2>
               </div>
             </div>
