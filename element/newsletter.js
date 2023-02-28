@@ -14,8 +14,8 @@ function Newsletter() {
 					<div className="col-lg-8 col-md-7 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
 						<div className="section-head style-1 text-white">
 							<h6 className="sub-title bgl-light m-b20">Newsletter</h6>
-							<h2 className="title m-b15">Subscribe To Our Newsletter For Latest Update Of Finanical Services </h2>
-							<p>Curabitur eleifend nibh sit amet ex posuere, vel malesuada turpis pretium. Quisque et tincidunt risus, a tempor massa. Cras tempor egestas libero, eu laoreet enim pharetra non.</p>
+							<h2 className="title m-b15">Subscribe To Our Newsletter For Latest Update Of our Services </h2>
+							<p>Researchsio is always there to help, support and provide. Let us inform you every update tha is needed for YOUR JOURNEY IN RESEARCH WORLD</p>
 						</div>
 						<div className="dlab-subscribe style-2 max-w500">
 							<form className="dzSubscribe" action="script/mailchamp.php" method="post">
