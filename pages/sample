@@ -42,15 +42,13 @@ function Pricing() {
 										<h3>Basic Plan</h3>
 									</div>
 									<div className="pricingtable-price"> 
-										<h2 className="pricingtable-bx">$49</h2>
+										<h2 className="pricingtable-bx">BDT 500</h2>
 									</div>
 									<ul className="pricingtable-features">
-										<li>Graphic Design </li>
-										<li>Web Design</li>
-										<li>UI/UX</li>
-										<li>HTML/CSS</li>
-										<li>SEO Marketing</li>
-										<li>Business Analysis</li>
+										<li>Topic Choice </li>
+										<li>Study Plan Design</li>
+										<li>PDF Books</li>
+										
 									</ul>
 									<div className="pricingtable-footer"> 
 										<a href="pricing-table-1.html" className="btn btn-link d-inline-flex align-items-center"><i className="fa fa-angle-right m-r10"></i>Start Now</a> 
