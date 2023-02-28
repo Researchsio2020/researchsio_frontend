@@ -71,10 +71,10 @@ function Quote() {
             >
               <div className="section-head style-1">
                 <h6 className="sub-title bgl-primary m-b20 text-primary">
-                  Contact Us
+                  Have A Question?
                 </h6>
                 <h2 className="title">
-                  We Love To Help Great Companies To Enlarge Their Revenues.
+                We Love To Support Passionate Researchers To Create Outstanding Projects.
                 </h2>
               </div>
               <form onSubmit={handleSubmit} className="dlab-form dzForm">
