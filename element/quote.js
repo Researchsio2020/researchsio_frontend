@@ -74,7 +74,7 @@ function Quote() {
                   Have A Question?
                 </h6>
                 <h2 className="title">
-                We Love To Support Passionate Researchers To Create Outstanding Projects.
+                We Love To Support Passionate Researchers to Build Their Projects.
                 </h2>
               </div>
               <form onSubmit={handleSubmit} className="dlab-form dzForm">
