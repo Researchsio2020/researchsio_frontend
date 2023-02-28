@@ -38,10 +38,10 @@ function AboutUs() {
               </p>
               <img src="images/Sign.png" alt="" />
               <h4 className="m-b30">Md. Salman Faisal (Founder)</h4>
-              <Link href="/about-us-1">
+              <Link href="/about-us">
                 <a className="btn btn-link d-inline-flex align-items-center">
                   <i className="fa fa-angle-right m-r10"></i>Learn More
-                 <a href=http://www.example.com>Example</a> </a> 
+                 </a> 
   
               </Link>
             </div>
