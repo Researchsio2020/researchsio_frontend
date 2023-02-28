@@ -9,7 +9,7 @@ function Features() {
 					<div className="col-xl-6 col-lg-7 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
 						<div className="section-head style-1">
 							<h6 className="sub-title bgl-primary m-b20 text-primary">Fetures</h6>
-							<h2 className="title">Our Working Process To Help Your Boost Your Business</h2>
+							<h2 className="title">Our Working Process To Help You Boost Your Project</h2>
 						</div>
 						<div className="section-wraper-one">
 							<div className="icon-bx-wraper style-2 left m-b30">
@@ -19,8 +19,8 @@ function Features() {
 									</a> 
 								</div>
 								<div className="icon-content">
-									<h4 className="dlab-title">Idea & Analysis Gathering</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<h4 className="dlab-title">Idea Generating</h4>
+									<p>Finding ypur passion sector of research and generationg the best project that will help you in future.</p>
 								</div>
 							</div>
 							<div className="icon-bx-wraper style-2 left m-b30">
@@ -31,7 +31,7 @@ function Features() {
 								</div>
 								<div className="icon-content">
 									<h4 className="dlab-title">Designing & Developing</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+									<p>Involves Study Plan, Method Development, Teamup, Consultation, follow-up and Management.</p>
 								</div>
 							</div>
 							<div className="icon-bx-wraper style-2 left m-b30">
@@ -41,8 +41,8 @@ function Features() {
 									</a> 
 								</div>
 								<div className="icon-content">
-									<h4 className="dlab-title">Testing & Lunching</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<h4 className="dlab-title">Testing, Launching and Publish</h4>
+									<p>Involves Review, Rewrite of your projects and Project's manuscript and getting ready for publication.</p>
 								</div>
 							</div>
 						</div>
