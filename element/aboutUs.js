@@ -41,7 +41,7 @@ function AboutUs() {
               <Link href="/about-us-1">
                 <a className="btn btn-link d-inline-flex align-items-center">
                   <i className="fa fa-angle-right m-r10"></i>Learn More
-                 <a href=http://www.example.com>Example</a> </a>
+                 <a href=http://www.example.com>Example</a> </a> 
   
               </Link>
             </div>
