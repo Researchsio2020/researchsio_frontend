@@ -45,7 +45,7 @@ function FAQ1() {
 					<div className="col-xl-7 col-lg-8 col-md-8">
 						<div className="section-head style-1">
 							<h6 className="sub-title bgl-primary m-b20 text-primary">More With Us</h6>
-							<h2 className="title">You Want To Showcase Your Website In Top Join With Us</h2>
+							<h2 className="title">You Want To Showcase Your Research Work In Top Journal? Join With Us</h2>
 						</div>
 					</div>
 					<div className="col-xl-5 col-lg-4 col-md-4 text-right m-b30">
