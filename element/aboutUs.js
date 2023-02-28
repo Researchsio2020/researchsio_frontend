@@ -36,7 +36,7 @@ function AboutUs() {
               <p className="m-b30">
                 We have qualified Researchers and Consultant who will guide you on how to start!
               </p>
-              <img src="images/Sign..jpeg" alt="" />
+              <img src="images/Sign..png" alt="" />
               <h4 className="m-b30">Md. Salman Faisal (Founder)</h4>
               <Link href="/about-us-1">
                 <a className="btn btn-link d-inline-flex align-items-center">
