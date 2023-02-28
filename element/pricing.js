@@ -18,16 +18,14 @@ function Pricing() {
                                     <h3 className="title">Basic Plan</h3>
                                 </div>
                                 <div className="pricingtable-price"> 
-                                    <h2 className="pricingtable-bx">$99<small>/Month</small></h2>
+                                    <h2 className="pricingtable-bx">BDT500<small>/2 Month</small></h2>
                                 </div>
                                 <p className="text">Aliquam dui lacus, lobortis quis sapien non.</p>
                                 <ul className="pricingtable-features">
-                                    <li>Graphic Design </li>
-                                    <li>Web Design</li>
-                                    <li>UI/UX</li>
-                                    <li>HTML/CSS</li>
-                                    <li>SEO Marketing</li>
-                                    <li>Business Analysis</li>
+                                    <li>Topic Choice</li>
+                                    <li>Study Plan Design</li>
+                                    <li>PDF Books</li>
+                                   
                                 </ul>
                                 <div className="pricingtable-footer"> 
                                     <a href="/pricing-table-1" className="btn btn-primary rounded-md">Start Now <i className="fa fa-angle-right m-l10"></i></a> 
@@ -42,16 +40,15 @@ function Pricing() {
                                     <h3 className="title">Standart Plan</h3>
                                 </div>
                                 <div className="pricingtable-price"> 
-                                    <h2 className="pricingtable-bx">$199<small>/Month</small></h2>
+                                    <h2 className="pricingtable-bx">BDT700<small>/4 Month</small></h2>
                                 </div>
                                 <p className="text">Aliquam dui lacus, lobortis quis sapien non.</p>
                                 <ul className="pricingtable-features">
-                                    <li>Graphic Design </li>
-                                    <li>Web Design</li>
-                                    <li>UI/UX</li>
-                                    <li>HTML/CSS</li>
-                                    <li>SEO Marketing</li>
-                                    <li>Business Analysis</li>
+                                    <li>Research Design</li>
+                                    <li>Study Plan Design</li>
+                                    <li>PDF Books</li>
+                                    <li>Software Support</li>
+                                    <li>Publication</li>
                                 </ul>
                                 <div className="pricingtable-footer"> 
                                     <a href="/pricing-table-1" className="btn btn-primary rounded-md">Start Now <i className="fa fa-angle-right m-l10"></i></a> 
@@ -66,16 +63,17 @@ function Pricing() {
                                     <h3 className="title">Premium Plan</h3>
                                 </div>
                                 <div className="pricingtable-price"> 
-                                    <h2 className="pricingtable-bx">$149<small>/Month</small></h2>
+                                    <h2 className="pricingtable-bx">BDT1000<small>/6Month</small></h2>
                                 </div>
                                 <p className="text">Aliquam dui lacus, lobortis quis sapien non.</p>
                                 <ul className="pricingtable-features">
-                                    <li>Graphic Design </li>
-                                    <li>Web Design</li>
-                                    <li>UI/UX</li>
-                                    <li>HTML/CSS</li>
-                                    <li>SEO Marketing</li>
-                                    <li>Business Analysis</li>
+                                     <li>Research Design</li>
+                                     <li>Research consultation</li>
+                                     <li>Team Support</li>
+                                    <li>Study Plan Design</li>
+                                    <li>PDF Books</li>
+                                    <li>Software Support</li>
+                                    <li>Publication</li>
                                 </ul>
                                 <div className="pricingtable-footer"> 
                                     <a href="/pricing-table-1" className="btn btn-primary rounded-md">Start Now <i className="fa fa-angle-right m-l10"></i></a>
