@@ -29,15 +29,15 @@ function AboutUs() {
                 </h2>
               </div>
               <p>
-                Researchsio provides a platform to guide and support YOU on your journey with
+                Researchsio provides a platform to guide and support YOU on Your journey with
     your research project. The required consultancy, team and tools thats will help you to build 
     your dream project and give it a reality. 
               </p>
               <p className="m-b30">
                 We have qualified Researchers and Consultant who will guide you on how to start!
               </p>
-              <img src="images/sign.png" alt="" />
-              <h4 className="m-b30">Founder M. Salman Faisal</h4>
+              <img src="images/Sign..jpeg" alt="" />
+              <h4 className="m-b30">Md. Salman Faisal (Founder)</h4>
               <Link href="/about-us-1">
                 <a className="btn btn-link d-inline-flex align-items-center">
                   <i className="fa fa-angle-right m-r10"></i>Learn More
