@@ -75,18 +75,13 @@ function Footer() {
                       <li>
                         <a
                           className="fa fa-facebook"
-                          href="https://en-gb.facebook.com/"
+                          href="https://www.facebook.com/Researchsio/"
                         ></a>
                       </li>
+                    
                       <li>
                         <a
-                          className="fa fa-instagram"
-                          href="https://www.instagram.com/"
-                        ></a>
-                      </li>
-                      <li>
-                        <a
-                          className="fa fa-researchgate.net"
+                          className="fa fa-researchgate"
                           href="https://researchgate.net/"
                         ></a>
                       </li>
