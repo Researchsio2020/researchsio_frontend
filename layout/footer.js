@@ -68,7 +68,7 @@ function Footer() {
                 <div className="widget widget_about">
                   <h5 className="footer-title">About Us</h5>
                   <p>
-                    An Online Research and Research Consultation Platform supporting the youth to achieve their goal 
+                    An Online Research and Research Consultation Platform Supporting The Youth To Achieve Their Goal. 
                   </p>
                   <div className="dlab-social-icon">
                     <ul>
@@ -87,7 +87,7 @@ function Footer() {
                       <li>
                         <a
                           className="fa fa-researchgate.net"
-                          href="https://www.researchgate.net/"
+                          href="https://researchgate.net/"
                         ></a>
                       </li>
                     </ul>
