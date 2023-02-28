@@ -36,9 +36,9 @@ function Footer() {
                     </div>
                     <div className="icon-content">
                       <p>
-                        +91 987-654-3210
+                        +88 01791 925 491
                         <br />
-                        info@example.com
+                        info@researchsio.com
                       </p>
                     </div>
                   </div>
@@ -53,7 +53,7 @@ function Footer() {
                       </Link>
                     </div>
                     <div className="icon-content">
-                      <p>Marmora Road Chi Minh City, Vietnam</p>
+                      <p>Mirpur 1, Dhaka-1216</p>
                     </div>
                   </div>
                 </div>
@@ -68,9 +68,7 @@ function Footer() {
                 <div className="widget widget_about">
                   <h5 className="footer-title">About Us</h5>
                   <p>
-                    Maecenas pellentesque placerat quam, in finibus nisl
-                    tincidunt sed. Aliquam magna augue, malesuada ut feugiat
-                    eget, cursus eget felis.
+                    An Online Research and Research Consultation Platform supporting the youth to achieve their goal 
                   </p>
                   <div className="dlab-social-icon">
                     <ul>
@@ -88,8 +86,8 @@ function Footer() {
                       </li>
                       <li>
                         <a
-                          className="fa fa-twitter"
-                          href="https://twitter.com/login?lang=en"
+                          className="fa fa-researchgate.net"
+                          href="https://www.researchgate.net/"
                         ></a>
                       </li>
                     </ul>
@@ -147,22 +145,22 @@ function Footer() {
                     </li>
                     <li>
                       <Link href="#">
-                        <a>Web Development</a>
+                        <a>Research Plan Design </a>
                       </Link>
                     </li>
                     <li>
                       <Link href="#">
-                        <a>Web Solution</a>
+                        <a>Solution</a>
                       </Link>
                     </li>
                     <li>
                       <Link href="#">
-                        <a>Digital Marketing</a>
+                        <a>Software Based Research</a>
                       </Link>
                     </li>
                     <li>
                       <Link href="#">
-                        <a>App Design </a>
+                        <a>Research Equipment </a>
                       </Link>
                     </li>
                   </ul>
@@ -218,9 +216,9 @@ function Footer() {
             <div className="row">
               <div className="col-sm-12 text-center">
                 <span className="copyright-text">
-                  Copyright © 2021{" "}
+                  Copyright © 2023{" "}
                   <a href="https://dexignzone.com/" target="_blank">
-                    DexignZone
+                    RESEARCHSIO
                   </a>
                   . All rights reserved.
                 </span>
