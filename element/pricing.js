@@ -18,9 +18,9 @@ function Pricing() {
                                     <h3 className="title">Basic Plan</h3>
                                 </div>
                                 <div className="pricingtable-price"> 
-                                    <h2 className="pricingtable-bx">BDT500<small>/2 Month</small></h2>
+                                    <h2 className="pricingtable-bx">BDT 500<small>/2 Month</small></h2>
                                 </div>
-                                <p className="text">Aliquam dui lacus, lobortis quis sapien non.</p>
+                                <p className="text">Best for individuals in initial format </p>
                                 <ul className="pricingtable-features">
                                     <li>Topic Choice</li>
                                     <li>Study Plan Design</li>
@@ -40,9 +40,9 @@ function Pricing() {
                                     <h3 className="title">Standart Plan</h3>
                                 </div>
                                 <div className="pricingtable-price"> 
-                                    <h2 className="pricingtable-bx">BDT700<small>/4 Month</small></h2>
+                                    <h2 className="pricingtable-bx">BDT 700<small>/4 Month</small></h2>
                                 </div>
-                                <p className="text">Aliquam dui lacus, lobortis quis sapien non.</p>
+                                <p className="text">Best for Students.</p>
                                 <ul className="pricingtable-features">
                                     <li>Research Design</li>
                                     <li>Study Plan Design</li>
@@ -63,9 +63,9 @@ function Pricing() {
                                     <h3 className="title">Premium Plan</h3>
                                 </div>
                                 <div className="pricingtable-price"> 
-                                    <h2 className="pricingtable-bx">BDT1000<small>/6Month</small></h2>
+                                    <h2 className="pricingtable-bx">BDT 1000<small>/6 Month</small></h2>
                                 </div>
-                                <p className="text">Aliquam dui lacus, lobortis quis sapien non.</p>
+                                <p className="text">Best for long term Projects</p>
                                 <ul className="pricingtable-features">
                                      <li>Research Design</li>
                                      <li>Research consultation</li>
