@@ -78,7 +78,7 @@ function Service() {
                 <div className="icon-content">
                   <h4 className="dlab-title">Research Equipment Delivery</h4>
                   <p>
-                    Research Lab wor need a variety of eqipments. We are here to support you with that. We Provide wide range of Research Materials. These are afforable and authentic. Our E-Commerce Site is soon to be launched.
+                    Research Lab work need a variety of eqipments. We are here to support you with that. We Provide wide range of Research Materials. These are afforable and authentic. Our E-Commerce Site is soon to be launched.
                   </p>
                 </div>
               </div>
