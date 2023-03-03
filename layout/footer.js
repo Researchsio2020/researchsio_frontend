@@ -76,12 +76,14 @@ function Footer() {
                       <li>
                         <a
                           className="fa fa-facebook"
+                          target="_bland"
                           href="https://www.facebook.com/Researchsio/"
                         ></a>
                       </li>
                       <li>
                         <a
                           className="fa fa-chrome"
+                          target="_blank"
                           href="https://researchgate.net/"
                         ></a>
                       </li>
