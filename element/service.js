@@ -15,7 +15,7 @@ function Service() {
   // }, []);
   return (
     <>
-      <section
+      <section id="services"
         className="content-inner-2 wow fadeInUp"
         style={{ backgroundImage: "url(images/background/bg1.png)" }}
       >

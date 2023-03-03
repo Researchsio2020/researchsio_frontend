@@ -121,7 +121,7 @@ function Header({ color }) {
                           color: color,
                         }}
                       >
-                        Gallery
+                        Projects
                       </a>
                     </Link>
                   </li>

@@ -85,7 +85,7 @@ function TestimonialSlider() {
                   </div>
                   <div className="testimonial-detail">
                     <div className="testimonial-pic">
-                      <img src="images/testimonials/pic3.jpg" alt="" />
+                      <img src={item.imageSrc} alt={item.title} />
                     </div>
                     <div className="clearfix">
                       <strong className="testimonial-name">{item.title}</strong>

@@ -30,7 +30,7 @@ function Home() {
         <AboutUs />
         <Features />
         <Projects />
-        <Newsletter />
+        {/* <Newsletter /> */}
         <Team />
         <Pricing />
         <Testimonial />

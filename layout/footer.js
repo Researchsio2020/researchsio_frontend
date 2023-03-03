@@ -68,7 +68,8 @@ function Footer() {
                 <div className="widget widget_about">
                   <h5 className="footer-title">About Us</h5>
                   <p>
-                    An Online Research and Research Consultation Platform Supporting The Youth To Achieve Their Goal. 
+                    An Online Research and Research Consultation Platform
+                    Supporting The Youth To Achieve Their Goal.
                   </p>
                   <div className="dlab-social-icon">
                     <ul>
@@ -78,10 +79,9 @@ function Footer() {
                           href="https://www.facebook.com/Researchsio/"
                         ></a>
                       </li>
-                    
                       <li>
                         <a
-                          className="fa fa-researchgate"
+                          className="fa fa-chrome"
                           href="https://researchgate.net/"
                         ></a>
                       </li>
@@ -98,27 +98,27 @@ function Footer() {
                   <h5 className="footer-title">Our links</h5>
                   <ul>
                     <li>
-                      <Link href="#">
+                      <Link href="/">
                         <a>Home</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href="about-us">
                         <a>About Us</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href="#services">
                         <a>Services</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href="/team">
                         <a>Team</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href="/blog">
                         <a>Blog</a>
                       </Link>
                     </li>
