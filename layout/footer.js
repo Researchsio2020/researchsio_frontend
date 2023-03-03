@@ -38,7 +38,7 @@ function Footer() {
                       <p>
                         +88 01791 925 491
                         <br />
-                        info@researchsio
+                        info@researchsio.com
                       </p>
                     </div>
                   </div>
@@ -85,6 +85,13 @@ function Footer() {
                           className="fa fa-chrome"
                           target="_blank"
                           href="https://researchgate.net/"
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          className="fa fa-linkedin"
+                          target="_blank"
+                          href="https://www.linkedin.com/company/researchsio2020/"
                         ></a>
                       </li>
                     </ul>
